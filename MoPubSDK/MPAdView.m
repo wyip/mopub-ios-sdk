@@ -32,6 +32,7 @@
 @synthesize testing = _testing;
 @synthesize adContentView = _adContentView;
 @synthesize allowedNativeAdOrientation = _allowedNativeAdOrientation;
+@synthesize networkExtras = _networkExtras;
 
 #pragma mark -
 #pragma mark Lifecycle

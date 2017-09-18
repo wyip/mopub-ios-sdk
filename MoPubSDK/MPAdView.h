@@ -86,6 +86,11 @@ typedef enum
  */
 @property (nonatomic, assign, getter = isTesting) BOOL testing;
 
+/**
+ * A dictionary containing extra network data for the network event.
+ */
+@property (nonatomic, copy) NSDictionary * networkExtras;
+
 /** @name Loading a Banner Ad */
 
 /**

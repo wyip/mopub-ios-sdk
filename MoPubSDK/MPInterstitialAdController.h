@@ -81,6 +81,11 @@
  */
 @property (nonatomic, assign, getter=isTesting) BOOL testing;
 
+/**
+ * A dictionary containing network extra data for the custom network events.
+ */
+@property (nonatomic, copy) NSDictionary * networkExtras;
+
 /** @name Loading an Interstitial Ad */
 
 /**

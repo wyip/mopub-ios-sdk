@@ -21,6 +21,7 @@
 @property (nonatomic, weak) id<MPBannerAdapterDelegate> delegate;
 @property (nonatomic, copy) NSURL *impressionTrackingURL;
 @property (nonatomic, copy) NSURL *clickTrackingURL;
+@property (nonatomic, copy) NSDictionary * networkExtras;
 
 - (id)initWithDelegate:(id<MPBannerAdapterDelegate>)delegate;
 

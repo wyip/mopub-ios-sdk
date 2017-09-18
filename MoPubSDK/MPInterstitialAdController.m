@@ -29,6 +29,7 @@
 @synthesize keywords = _keywords;
 @synthesize location = _location;
 @synthesize testing = _testing;
+@synthesize networkExtras = _networkExtras;
 
 - (id)initWithAdUnitId:(NSString *)adUnitId
 {

@@ -17,6 +17,8 @@
 
 @property (nonatomic, weak) id<MPInterstitialAdapterDelegate> delegate;
 
+@property (nonatomic, copy) NSDictionary * networkExtras;
+
 /*
  * Creates an adapter with a reference to an MPInterstitialAdManager.
  */

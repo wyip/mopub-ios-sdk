@@ -172,6 +172,9 @@
         [self adapter:nil didFailToLoadAdWithError:nil];
         return;
     }
+    
+    // Pass the network extras to the adapter.
+    adapter.networkExtras = self.interstitialAdController.networkExtras;
 
     self.adapter = adapter;
     [self.adapter _getAdWithConfiguration:configuration];

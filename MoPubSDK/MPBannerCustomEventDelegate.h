@@ -132,4 +132,9 @@
  */
 - (void)trackClick;
 
+/**
+ * Get the network extra data set by the original client adapter.
+ */
+- (NSDictionary *)getNetworkExtras;
+
 @end

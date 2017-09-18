@@ -161,4 +161,9 @@
     [self.expirationTimer invalidate];
 }
 
+- (NSDictionary *)getNetworkExtras
+{
+    return self.networkExtras;
+}
+
 @end

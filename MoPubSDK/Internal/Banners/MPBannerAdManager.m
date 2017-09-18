@@ -234,6 +234,8 @@
         [self loadAdWithURL:self.requestingConfiguration.failoverURL];
         return;
     }
+    
+    self.requestingAdapter.networkExtras = self.banner.networkExtras;
 
     [self.requestingAdapter _getAdWithConfiguration:configuration containerSize:self.delegate.containerSize];
 }
