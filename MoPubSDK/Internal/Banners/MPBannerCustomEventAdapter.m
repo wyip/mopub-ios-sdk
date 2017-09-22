@@ -138,9 +138,4 @@
     }
 }
 
-- (NSDictionary *)getNetworkExtras
-{
-    return self.networkExtras;
-}
-
 @end

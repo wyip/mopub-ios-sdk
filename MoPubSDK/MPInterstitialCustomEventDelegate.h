@@ -183,6 +183,6 @@
 /**
  * Get the network extra data set by the original client adapter.
  */
-- (NSDictionary *)getNetworkExtras;
+- (NSDictionary *)networkExtras;
 
 @end
